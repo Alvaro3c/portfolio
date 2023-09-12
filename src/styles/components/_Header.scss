@@ -1,0 +1,14 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+header {
+    background-color: $header-color;
+    color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        margin-left: 10px;
+        font-family: $montserrat;
+    }
+}

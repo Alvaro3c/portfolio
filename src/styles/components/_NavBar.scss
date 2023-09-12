@@ -1,0 +1,11 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.nav-bar {
+    display: flex;
+
+    li {
+        list-style-type: none;
+        margin-right: 10px;
+    }
+}

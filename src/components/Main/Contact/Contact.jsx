@@ -3,11 +3,12 @@ import React from "react";
 const Contact = () => {
   return <>
     <section className="contact">
+      <h2>Contact me</h2>
       <form action="">
         <input type="text" placeholder="Name" />
         <input type="text" placeholder="Subjet" />
         <input type="email" placeholder="email" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="" id="" rows="10"></textarea>
       </form>
     </section>
   </>;

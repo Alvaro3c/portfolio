@@ -1,0 +1,10 @@
+@import '../utils/variables.scss';
+@import '../utils/mixins.scss';
+
+.about {
+    margin-bottom: $betweeen-sections;
+
+    h2 {
+        text-align: center;
+    }
+}
