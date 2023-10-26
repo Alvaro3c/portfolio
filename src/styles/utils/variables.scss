@@ -1,14 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+
 
 //colors
-$background-color: #0C1821;
-$header-color: #000000;
-$primary-color: #CCC9DC;
-$secondary-color: #BDBBB0;
+$background-color: white;
+$header-color: #020220;
+$primary-color: #008d94;
+$secondary-color: #DE3C4B;
+$terciary-color: #f1af5e;
 
 //fonts
-$montserrat: 'Montserrat';
+$montserrat: 'Verdana';
 
 //spacing
 $betweeen-sections: 60px;
 $botom-h2: 30px;
+$botom-h1: 20px;
+$side-spacing: 20px;

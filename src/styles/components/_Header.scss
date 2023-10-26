@@ -4,11 +4,35 @@
 header {
     background-color: $header-color;
     color: $primary-color;
+    height: 50px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
 
-    p {
-        margin-left: 10px;
+    .header-elements {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .icon {
+        position: static;
+        color: white;
+        scale: 2;
+        margin-right: $side-spacing;
+    }
+
+    .button-container {}
+
+    a {
+        @include anchors;
+        margin-left: $side-spacing;
         font-family: $montserrat;
     }
+
+
+
 }

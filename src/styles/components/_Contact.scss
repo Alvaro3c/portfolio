@@ -1,6 +1,14 @@
 @import '../utils/variables.scss';
 @import '../utils/mixins.scss';
 
+.contact {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -10,15 +18,16 @@ form {
     textarea {
         border-radius: 20px;
         margin: 10px;
-        width: 70%;
+        width: 100%;
         padding: 5px 20px;
-        background-color: #0f2637;
+        background-color: $terciary-color;
         border: none;
     }
 
     ::placeholder {
-        color: #ffffff;
+        color: $primary-color;
         opacity: 0.7;
+        font-weight: 600;
     }
 
     input {}

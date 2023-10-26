@@ -2,19 +2,31 @@ import React from "react";
 
 const Heading = () => {
   return <>
-    <h1>Hi there, Im Alvaro Cuallado</h1>
-    <section className="heading">
+
+    <section className="heading" id="section-heading">
       <article>
+        <h1>Hi there, Im Alvaro Cuallado</h1>
         <h2>Full Stack developer</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quos tempore expedita at eius maiores, a reprehenderit soluta eaque minus labore iure fuga assumenda dolor deleniti praesentium sapiente sequi. Voluptate quo reiciendis mollitia officia praesentium maxime porro error quia nemo sequi, eum repellendus atque ratione ipsam corrupti consequatur. Fugit, magnam.</p>
+
         {/* iconos de tecnologias conocidas */}
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
-        <img src="" alt="" />
+        <div className="icons-box">
+          <div className="icons-group-1">
+            <img src="./5968242.png" alt="" />
+            <img src="./1200px-Javascript-shield.svg.png" alt="" />
+            <img src="./Angular_full_color_logo.svg.png" alt="" />
+            <img src="./1280px-Sass_Logo_Color.svg.png" alt="" />
+          </div>
+          <div className="icons-group-2">
+            <img src="./nodejs_original_wordmark_logo_icon_146412.png" alt="" />
+            <img src="./MongoDB_Logo.svg.png" alt="" />
+            <img src="./4299956.png" alt="" />
+            <img src="./Git-Icon-1788C.png" alt="" />
+          </div>
+        </div>
       </article>
+      {/* foto de careto si procede */}
       <img src="" alt="" />
-    </section>
+    </section >
   </>;
 };
 

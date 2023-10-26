@@ -4,6 +4,7 @@ import Contact from './Contact/Contact'
 import Heading from './Heading/Heading'
 import Proyects from './Proyects/Proyects'
 
+
 const Main = () => {
   return <>
     <main>
@@ -12,7 +13,6 @@ const Main = () => {
       <Proyects />
       <Contact />
     </main>
-
   </>
 
 };
