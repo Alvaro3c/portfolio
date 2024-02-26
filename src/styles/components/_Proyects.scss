@@ -1,8 +1,8 @@
-//MOBILE FIRST!!!
 @import '../utils/variables.scss';
 @import '../utils/mixins.scss';
 
 .proyect-list {
     height: 100vh;
-    @include articleDisplay
+    @include articleDisplay;
+    justify-content: flex-start;
 }

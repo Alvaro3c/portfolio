@@ -2,18 +2,16 @@
 @import '../utils/mixins.scss';
 
 .nav-bar {
-    position: absolute;
-    margin-left: 220px;
-    margin-top: -1px;
-    background-color: aliceblue;
-    border-radius: 20px;
+
+
+    border: 1px solid black;
+    background-color: white;
     height: 100vh;
-    width: 40%;
+
 
     li {
         list-style-type: none;
         margin-top: 20px;
-        padding: 20px 30px 20px -0px;
         font-family: $montserrat;
         font-size: large;
 
